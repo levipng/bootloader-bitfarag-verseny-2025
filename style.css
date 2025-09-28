@@ -1,0 +1,54 @@
+.timer {
+    margin-right: 20px;
+    background-color: slategrey;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.text-kozep {
+    text-align: center;
+}
+
+.alsó {
+    bottom: 40%;
+    color: blueviolet;
+    padding-bottom: 20%;
+    border-radius: 8%;
+    border-bottom: 10%;
+    border-color: black;
+
+}
+
+.container {
+    background-color: rgb(207, 191, 223);
+    border-radius: 10px;
+}
+
+.footer {
+    display: block;
+    align-content: end;
+
+}
+
+body {
+    padding-bottom: 80px;
+}
+
+.goal-card {
+    border: none;
+    border-left: 4px solid #aa28d1;
+}
+
+.goal-icon {
+    font-size: 32px;
+    color: #aa28d1;
+    margin-bottom: 16px;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    padding: 48px 0;
+    margin-bottom: 32px;
+    border-radius: 0 0 20px 20px;
+}
