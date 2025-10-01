@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="hu">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Egyszerű TODO lista</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../bemutatkozo/img/Bootloader2.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <a href="../index.html" class="back-btn" class="">&larr; Vissza</a>
+            <header>
+                <div class="logo">BL</div>
+                <h1>TODO lista</h1>
+            </header>
+            <div class="d-flex justify-content-center mb-4">
+                <input id="ujtask" type="text" placeholder="Új feladat..." aria-label="Új feladat" />
+                <button id="kuld" onclick="kuld()">Hozzáad</button>
+            </div>
+            <ul id="listtask"></ul>
+        </div>
+    </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</html>

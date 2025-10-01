@@ -1,0 +1,81 @@
+
+:root {
+    --bg: #fdfaff;
+    --accent1: #f4a0d8;
+    --accent2: #c98ce7;
+    --text-color: #494848;
+    --button-radius: 30px;
+    --shadow: 0 6px 20px rgba(200, 100, 200, 0.15);
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial;
+    background: var(--bg);
+    color: var(--text-color);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+
+button {
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: var(--button-radius);
+    cursor: pointer;
+    background: linear-gradient(90deg, var(--accent1), var(--accent2));
+    color: white;
+    box-shadow: var(--shadow);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(200, 100, 200, 0.3);
+}
+
+button:active {
+    transform: translateY(0);
+    box-shadow: var(--shadow);
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.bootloader-title {
+    font-size: 96px;
+    font-weight: 900;
+    background: linear-gradient(90deg, var(--accent1), var(--accent2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}

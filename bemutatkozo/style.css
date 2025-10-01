@@ -1,0 +1,156 @@
+.timer {
+    margin-right: 20px;
+    background-color: slategrey;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.text-kozep {
+    text-align: center;
+}
+
+.alsó {
+    bottom: 40%;
+    color: blueviolet;
+    padding-bottom: 20%;
+    border-radius: 8%;
+    border-bottom: 10%;
+    border-color: black;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+
+}
+
+.container {
+    background-color: rgb(207, 191, 223);
+    border-radius: 10px;
+}
+
+
+body {
+    padding-bottom: 80px;
+}
+
+.goal-card {
+    border: none;
+    border-left: 4px solid #aa28d1;
+}
+
+.goal-icon {
+    font-size: 32px;
+    color: #aa28d1;
+    margin-bottom: 16px;
+    box-shadow: 0 6px 18px rgba(170, 40, 209, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.goal-card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 12px 25px rgba(170, 40, 209, 0.3); 
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    padding: 48px 0;
+    margin-bottom: 32px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+button {
+    background-color: #ffffff;
+    color: #3b82f6;
+    border: none;
+    border-radius: 8px;
+    width: auto;
+    height: 45px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #b62eaf;
+    color: #fff;
+    transform: translateY(-3px); 
+    box-shadow: 0 8px 20px rgba(175, 48, 137, 0.3); 
+}
+
+.logokerek{
+    border-radius: 15px;
+    width: 150px;
+}
+
+.gomboshatter{
+    background-color: #ffffff60;
+    width: fit-content;
+    border-radius: 20px;
+}
+
+
+main img.img-fluid {
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+main img.img-fluid:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+}
+
+
+.carousel-inner img {
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.carousel-inner img:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 35px rgba(0,0,0,0.3);
+}
+
+
+.text-kozep h1, .hero-section h1, .hero-section p {
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.2); /
+}
+
+
+main button {
+    margin-top: 10px;
+}
+
+
+
+
+
+.navbar-nav .nav-link {
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #af3089;          
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2); 
+}
+
+.navbar {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+    transition: 0.3s;
+}
+
+.navbar:hover {
+    background-color: rgba(207,191,223,0.9);
+
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; 
+}

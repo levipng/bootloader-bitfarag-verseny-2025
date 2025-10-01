@@ -1,0 +1,145 @@
+
+.container {
+    max-width: 600px;      
+    margin: 50px auto;     
+    padding: 20px;
+    background: #fdfaff;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(200, 100, 200, 0.2);
+    text-align: center; 
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 24px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #f4a0d8, #c98ce7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+input#ujtask {
+    width: 70%;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+button#kuld {
+    padding: 10px 16px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(90deg, #f4a0d8, #c98ce7);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button#kuld:hover {
+    background: linear-gradient(90deg, #c98ce7, #aa28d1);
+}
+
+#listtask {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+#listtask li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;           
+    max-width: 500px;      
+    padding: 12px 16px;
+    background: linear-gradient(135deg, #f4a0d8, #c98ce7, #ffffff);
+    border-radius: 14px;
+    box-shadow: 0 6px 20px rgba(200, 100, 200, 0.15);
+    transition: 0.3s;
+}
+
+#listtask li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(200, 100, 200, 0.25);
+}
+
+#listtask li span {
+    flex-grow: 1;
+    margin-left: 12px;
+    font-weight: 500;
+    color: #222;
+}
+
+#listtask li button {
+    border: none;
+    background-color: #aa28d1;
+    color: white;
+    border-radius: 10px;
+    padding: 6px 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#listtask li button:hover {
+    background-color: #f4a0d8;
+    color: #222;
+}
+
+#listtask li input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #aa28d1;
+    font-weight: 600;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    color: #f4a0d8;
+    
+}
+
+#listtask li input[type="checkbox"] {
+    width: 24px;              
+    height: 24px;
+    cursor: pointer;
+    accent-color: #aa28d1;    
+    border-radius: 6px;       
+    border: 2px solid #c98ce7;
+    transition: 0.2s;
+}
+
+#listtask li input[type="checkbox"]:hover {
+    transform: scale(1.1);    
+}
+
+#listtask li input[type="checkbox"]:checked {
+    background: linear-gradient(135deg, #f4a0d8, #c98ce7); 
+    border: none;
+}

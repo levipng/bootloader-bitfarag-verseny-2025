@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootloader: Kezdőlap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/Bootloader2.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img class="logokerek" src="img/Bootloader2.png" alt="Logó">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="kezdolap.html">Kezdőlap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="iskolánk.html">Az iskolánk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="céljaink.html">Céljaink</a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center">
+                    <a href="https://nejanet.hu" target="_blank" class="me-2">
+                        <img src="img/nejanet_logo.png" alt="Nejanet Logo" class="logokerek"
+                            style="width: 80px; height: 100px;">
+                    </a>
+                    <div class="timer ms-2 d-flex align-items-center">
+                        <span class="fs-5 fw-bold me-2" style="color: #000;">Jelenlegi idő:</span>
+                        <div class="fs-3">
+                            <p id="time" class="mb-0"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-12 mb-4">
+                    <h1 class="text-kozep">A csapatról:</h1>
+                </div>
+                <div class="col-4">
+                    <img class="img-fluid rounded" src="img/hunor1.jpg" alt="Gomány Hunor">
+                </div>
+                <div class="col-4">
+                    <img class="img-fluid rounded" src="img/levi3.jpg" alt="Koós Levente">
+                </div>
+                <div class="col-4">
+                    <img class="img-fluid rounded" src="img/zsombi2.jpg" alt="Vincze Zsombor">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4  mt-4  mb-4">
+                    <h1 class="text-kozep">Gomány Hunor</h1>
+                </div>
+                <div class="col-4  mt-4  mb-4">
+                    <h1 class="text-kozep">Koós Levente</h1>
+                </div>
+                <div class="col-4  mt-4  mb-4">
+                    <h1 class="text-kozep">Vincze Zsombor</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 d-flex justify-content-center mb-4">
+                    <button type="button" onclick="g1()">
+                        Nyisd le a további részletekért
+                    </button>
+                </div>
+                <div class="col-4 d-flex justify-content-center mb-4">
+                    <button type="button" onclick="g2()">
+                        Nyisd le a további részletekért
+                    </button>
+                </div>
+                <div class="col-4 d-flex justify-content-center mb-4">
+                    <button type="button" onclick="g3()">
+                        Nyisd le a további részletekért
+                    </button>
+                </div>
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center mb-4">
+                        <p id="szoveg"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div id="">
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12  mb-4">
+                    <h1 class="text-kozep">Felkészítő tanárunk:</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12  mb-4 text-center">
+                    <img class="img-fluid rounded" style="height: 740px;" src="img/tanarno.jfif" alt="Szabobeata">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12  mb-4">
+                    <h1 class="text-kozep">Szabó Beáta</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center mb-4">
+                    <button onclick="kep()">Csapatunk</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center mb-4">
+                    <p id="kep"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+</html>
